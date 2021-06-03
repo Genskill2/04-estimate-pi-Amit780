@@ -37,7 +37,20 @@ int main(void) {
       abort();
     }
   }
+}float mc_pi(int k)
+{
+float c_cn=0;
+float p,q;
+int i =0;
+for(i=0; i< k; i++){
+p =frandom();
+q= frandom();
+if(sqrt(p*p + q*q)<1)
+c_cn+=1;}
+float pi= ((4*c_cn)/k);
+return pi;
 }
+
 
 
 
