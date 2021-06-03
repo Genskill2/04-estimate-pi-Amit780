@@ -26,8 +26,8 @@ int main(void) {
   {
   float j, pi;
   float sm =1;
-  for(int i=1; i<=k; i++){
-  j=(float)i*i;
+  for(int t=1; t<=k; t++){
+  j=(float)t*t;
   sm*= (4*j)/((4*j)-1);
   }
   pi= sm*2;
